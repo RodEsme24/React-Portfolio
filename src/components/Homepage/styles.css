@@ -1,0 +1,5 @@
+.center-vert {
+    display:flex;
+    margin: auto;
+    align-items: center
+}

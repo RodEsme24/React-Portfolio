@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Navbar, Nav,Form, FormControl } from 'react-bootstrap';
-function Header(props) {
+function Header() {
     return (
   <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="#home">Esmeralda Rodriguez</Navbar.Brand>
