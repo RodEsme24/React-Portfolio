@@ -1,12 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
-
+import proj2banner from './images.jpeg'
 
 function Project(props) {
+let banners = {
+    proj2banner
+}
   return (
     <Row className="info-env no-gutters">
     <Col sm={3} className="p-3">
-        <img src={props.info.img} alt="my face" className="img-fluid"/>
+        <img src={banners[props.info.img]} alt="my face" className="img-fluid"/>
     </Col>
     <Col sm={9} className="p-5">
         <span className="enphasis">{props.info.title}</span><br/>

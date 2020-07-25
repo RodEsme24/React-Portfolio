@@ -4,9 +4,15 @@ import Project from "./Project"
 
 let projectData = [
     {
-        img: './images.jpeg',
+        img: 'proj2banner',
         title: 'Project Two',
         text: 'Allows user to search for movies based on a short quiz',
+        link: 'https://myflix-project2.herokuapp.com/login'
+    },
+    {
+        img: 'proj2banner',
+        title: 'Project Three',
+        text: 'Allows weird ting',
         link: 'https://myflix-project2.herokuapp.com/login'
     }
 ]
