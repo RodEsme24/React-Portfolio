@@ -1,0 +1,6 @@
+.center-vert-col {
+    display:flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}

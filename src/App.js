@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Homepage from "./components/Homepage"
 import Footer from "./components/Footer"
 import Portfolio from "./components/Portfolio"
+import Contact from "./components/Contact"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Portfolio/>
+      <Contact/>
       <Footer/>
       
     </>

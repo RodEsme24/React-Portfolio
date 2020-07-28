@@ -19,10 +19,10 @@ let projectData = [
 
 function Portfolio() {
     return (
-<Container className="flex-grow-1 center-vert">
+<Container className="flex-grow-1 center-vert-col">
     {projectData.map(item => 
         (
-            <Project info={item}/>
+            <Project  info={item}/>
         )
     )}
   </Container>

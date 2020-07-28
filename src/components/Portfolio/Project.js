@@ -7,7 +7,7 @@ let banners = {
     proj2banner
 }
   return (
-    <Row className="info-env no-gutters">
+    <Row className="info-env no-gutters m-5">
     <Col sm={3} className="p-3">
         <img src={banners[props.info.img]} alt="my face" className="img-fluid"/>
     </Col>
