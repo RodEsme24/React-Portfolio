@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header"
@@ -9,16 +9,36 @@ import Contact from "./components/Contact"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
+//explaining conditionals in react
+
+
+
 function App() {
+  // Initialize a state variable
+  let [ page, setPage ] = useState('homepage')
+  let changePage = (newPage) => {setPage(newPage)}
+
   return (
     <>
-      <Header/>
-      <Contact/>
+      <Header changePage={changePage}/>
+      {
+        (page === 'homepage') && (
+          <Homepage/>
+        )
+      }
+      {
+        (page === 'portfolio') && (
+          <Portfolio/>
+        )
+      }
+      {
+        (page === 'contact') && (
+          <Contact/>
+        )
+      }
       <Footer/>
-      
     </>
-
-
   );
 }
 

@@ -17,7 +17,7 @@ let projectData = [
     }
 ]
 
-function Portfolio() {
+function Portfolio() { 
     return (
 <Container className="flex-grow-1 center-vert-col">
     {projectData.map(item => 
