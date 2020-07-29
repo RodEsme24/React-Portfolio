@@ -10,12 +10,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-//explaining conditionals in react
+
 
 
 
 function App() {
-  // Initialize a state variable
+  
   let [ page, setPage ] = useState('homepage')
   let changePage = (newPage) => {setPage(newPage)}
 
